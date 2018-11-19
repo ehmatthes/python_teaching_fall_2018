@@ -6,6 +6,10 @@ Short link to this repository: bit.ly/2zx5Hgx
 Here are the notebooks we're working through, in order:
 
 [Variables](Variables.ipynb)
+[Numbers](Numbers.ipynb)
+[Lists](Lists.ipynb)
+
+[Assignments - Hello World Through Lists](Assignments - Hello World Through Lists.ipynb)
 
 Helpful resources:
 ---
