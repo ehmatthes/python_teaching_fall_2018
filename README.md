@@ -6,7 +6,7 @@ Short link to this repository: bit.ly/2zx5Hgx
 Here are the notebooks we're working through, in order:
 ---
 
-###Teaching and Assignment Notebooks###
+**Teaching and Assignment Notebooks**
 
 - [Variables](Variables.ipynb)
 - [Numbers](Numbers.ipynb)
@@ -17,7 +17,7 @@ Here are the notebooks we're working through, in order:
   - [Assignments: If Statements...](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Assignments%20-%20If%20Statements....ipynb)
 - [Dictionaries](Dictionaries.ipynb)
 
-###Other Notebooks###
+**Other Notebooks**
 
 - [Assignments - Real World Examples](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Assignments%20-%20Real%20World%20Examples.ipynb)
 
