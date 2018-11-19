@@ -4,12 +4,22 @@ Resources for Introduction to Programming, Fall 2018
 Short link to this repository: bit.ly/2zx5Hgx
 
 Here are the notebooks we're working through, in order:
+---
 
-[Variables](Variables.ipynb)
-[Numbers](Numbers.ipynb)
-[Lists](Lists.ipynb)
+###Teaching and Assignment Notebooks###
 
-[Assignments - Hello World Through Lists]("Assignments - Hello World Through Lists.ipynb")
+- [Variables](Variables.ipynb)
+- [Numbers](Numbers.ipynb)
+- [Lists](Lists.ipynb)
+  - [Assignments - Hello World Through Lists](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Assignments%20-%20Hello%20World%20through%20Lists.ipynb)
+- [If Statements](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/If%20Statements.ipynb)
+- [User Input](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/User%20Input.ipynb)
+  - [Assignments: If Statements...](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Assignments%20-%20If%20Statements....ipynb)
+- [Dictionaries](Dictionaries.ipynb)
+
+###Other Notebooks###
+
+- [Assignments - Real World Examples](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Assignments%20-%20Real%20World%20Examples.ipynb)
 
 Helpful resources:
 ---
