@@ -9,7 +9,7 @@ Here are the notebooks we're working through, in order:
 [Numbers](Numbers.ipynb)
 [Lists](Lists.ipynb)
 
-[Assignments - Hello World Through Lists](Assignments - Hello World Through Lists.ipynb)
+[Assignments - Hello World Through Lists]("Assignments - Hello World Through Lists.ipynb")
 
 Helpful resources:
 ---
