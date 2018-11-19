@@ -3,6 +3,10 @@ Resources for Introduction to Programming, Fall 2018
 
 Short link to this repository: bit.ly/2zx5Hgx
 
+Here are the notebooks we're working through, in order:
+
+[Variables](Variables.ipynb)
+
 Helpful resources:
 ---
 
