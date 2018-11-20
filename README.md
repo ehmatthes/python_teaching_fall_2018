@@ -20,8 +20,8 @@ Here are the notebooks we're working through, in order:
 **Other Notebooks**
 
 - [Assignments - Real World Examples](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Assignments%20-%20Real%20World%20Examples.ipynb)
-- [Installing Libraries]()
-- [Playing with Sound]()
+- [Installing Libraries](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Installing%20Libraries.ipynb)
+- [Playing with Sound](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Playing%20with%20Sound.ipynb)
 
 Helpful resources:
 ---
