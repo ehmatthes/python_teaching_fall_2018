@@ -16,6 +16,7 @@ Here are the notebooks we're working through, in order:
 - [User Input](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/User%20Input.ipynb)
   - [Assignments: If Statements...](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Assignments%20-%20If%20Statements....ipynb)
 - [Dictionaries](Dictionaries.ipynb)
+- [Functions](Functions.ipynb)
 
 **Other Notebooks**
 
