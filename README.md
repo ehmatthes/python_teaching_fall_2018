@@ -14,7 +14,7 @@ Here are the notebooks we're working through, in order:
   - [Assignments - Hello World Through Lists](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Assignments%20-%20Hello%20World%20through%20Lists.ipynb)
 - [If Statements](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/If%20Statements.ipynb)
 - [User Input](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/User%20Input.ipynb)
-  - [Assignments: If Statements...](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Assignments%20-%20If%20Statements....ipynb)
+  - [Assignments: If Statements](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Assignments%20-%20If%20Statements.ipynb)
 - [Dictionaries](Dictionaries.ipynb)
 - [Functions](Functions.ipynb)
 
