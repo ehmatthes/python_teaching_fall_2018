@@ -2,7 +2,7 @@ import sys
 
 import pygame
 
-class HeroGame:
+class SidewaysHero:
     """Overall class to manage game assets and behavior."""
 
     def __init__(self):
@@ -10,7 +10,7 @@ class HeroGame:
         pygame.init()
 
         self.screen = pygame.display.set_mode((1200, 800))
-        pygame.display.set_caption("Hero Game")
+        pygame.display.set_caption("Sideways Hero")
 
     def run_game(self):
         """Start the main loop for the game."""
@@ -25,5 +25,5 @@ class HeroGame:
 
 if __name__ == '__main__':
     # Make a game instance, and run the game.
-    hero_game = HeroGame()
-    hero_game.run_game()
+    sh_game = SidewaysHero()
+    sh_game.run_game()
