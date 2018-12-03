@@ -25,7 +25,7 @@ Here are the notebooks we're working through, in order:
 
 **Project Notebooks**
 
-- [Making a Simple Game](Making-a-Simple-Game.ipynb)
+- [Making a Simple Game](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Making%20a%20Simple%20Game.ipynb)
 - [Playing with Sound](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Playing%20with%20Sound.ipynb)
 
 Helpful resources:
