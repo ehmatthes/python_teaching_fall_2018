@@ -22,6 +22,10 @@ Here are the notebooks we're working through, in order:
 
 - [Assignments - Real World Examples](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Assignments%20-%20Real%20World%20Examples.ipynb)
 - [Installing Libraries](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Installing%20Libraries.ipynb)
+
+**Project Notebooks**
+
+- [Making a Simple Game](Making-a-Simple-Game.ipynb)
 - [Playing with Sound](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Playing%20with%20Sound.ipynb)
 
 Helpful resources:
