@@ -17,6 +17,7 @@ Here are the notebooks we're working through, in order:
   - [Assignments: If Statements](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Assignments%20-%20If%20Statements.ipynb)
 - [Dictionaries](Dictionaries.ipynb)
 - [Functions](Functions.ipynb)
+- [Assignments - Dictionaries etc.](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Assignments%20-%20Dictionaries%20etc.ipynb)
 
 **Other Notebooks**
 
