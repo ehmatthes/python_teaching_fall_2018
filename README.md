@@ -17,17 +17,19 @@ Here are the notebooks we're working through, in order:
   - [Assignments: If Statements](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Assignments%20-%20If%20Statements.ipynb)
 - [Dictionaries](Dictionaries.ipynb)
 - [Functions](Functions.ipynb)
-- [Assignments - Dictionaries etc.](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Assignments%20-%20Dictionaries%20etc.ipynb)
+  - [Assignments - Dictionaries etc.](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Assignments%20-%20Dictionaries%20etc.ipynb)
+
+**Project Notebooks**
+
+- [Project Notes](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Project%20Notes.ipynb)
+- [Making a Simple Game](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Making%20a%20Simple%20Game.ipynb)
+- [Playing with Sound](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Playing%20with%20Sound.ipynb)
+- [Playing with Photos](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Playing%20with%20Photos.ipynb)
 
 **Other Notebooks**
 
 - [Assignments - Real World Examples](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Assignments%20-%20Real%20World%20Examples.ipynb)
 - [Installing Libraries](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Installing%20Libraries.ipynb)
-
-**Project Notebooks**
-
-- [Making a Simple Game](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Making%20a%20Simple%20Game.ipynb)
-- [Playing with Sound](https://github.com/ehmatthes/python_teaching_fall_2018/blob/master/Playing%20with%20Sound.ipynb)
 
 Helpful resources:
 ---
