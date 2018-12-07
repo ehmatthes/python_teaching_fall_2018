@@ -23,7 +23,22 @@ class SidewaysHero:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     sys.exit()
+                if event.type == pygame.KEYDOWN:
+                    if event.key == pygame.K_UP:
+                        # Up key has been pressed!
+                        #  We want the ship to move up.
+                        self.ship.rect.y -= 10
+                    if event.key == pygame.K_DOWN:
+                        self.ship.rect.y += 10
+                    if event.key == pygame.K_RIGHT:
+                        # Player wants to move right.
+                        #  Only let them, if x < 100.
+                        if self.ship.rect.right < self.screen_rect.right:
+                            self.ship.rect.x += 10
+                    if event.key == pygame.K_LEFT:
+                        self.ship.rect.x -= 10
 
+            self.screen.fill((255, 255, 255))
             self.ship.blitme()
 
             # Make the most recently drawn screen visible.
