@@ -31,12 +31,15 @@ class SidewaysHero:
                     if event.key == pygame.K_DOWN:
                         self.ship.rect.y += 10
                     if event.key == pygame.K_RIGHT:
-                        # Player wants to move right.
-                        #  Only let them, if x < 100.
-                        if self.ship.rect.right < self.screen_rect.right:
-                            self.ship.rect.x += 10
+                        self.ship.moving_right = True
                     if event.key == pygame.K_LEFT:
                         self.ship.rect.x -= 10
+                elif event.type == pygame.KEYUP:
+                    if event.key == pygame.K_RIGHT:
+                        self.ship.moving_right = False
+
+            # Update positions of any characters that might be moving.
+            self.ship.update()
 
             self.screen.fill((255, 255, 255))
             self.ship.blitme()

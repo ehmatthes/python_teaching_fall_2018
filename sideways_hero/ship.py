@@ -15,6 +15,14 @@ class Ship:
         # Start each new ship at the bottom center of the screen.
         self.rect.midleft = self.screen_rect.midleft
 
+        # Movement flags.
+        self.moving_right = False
+
+    def update(self):
+        if self.moving_right:
+            if self.rect.right < 400:
+                self.rect.x += 1
+
     def blitme(self):
         """Draw the ship at its current location."""
         self.screen.blit(self.image, self.rect)
