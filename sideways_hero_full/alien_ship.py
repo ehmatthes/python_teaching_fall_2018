@@ -18,7 +18,7 @@ class AlienShip(Sprite):
 
         # Start each new ship at a random position on the right
         #  side of the screen
-        self.rect.left = self.screen_rect.right
+        self.rect.left = self.screen_rect.right + randint(-30, 30)
         self.rect.y = randint(0, self.screen_rect.height)
 
     def update(self):

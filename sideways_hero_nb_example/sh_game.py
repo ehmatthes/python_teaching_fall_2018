@@ -16,7 +16,12 @@ class SidewaysHero:
         pygame.display.set_caption("Sideways Hero")
 
         self.ship = Ship(self)
-        self.alien_ship = AlienShip(self)
+
+        # Make a group of three aliens.
+        self.aliens = pygame.sprite.Group()
+        for alien_num in range(3):
+            new_alien = AlienShip(self)
+            self.aliens.add(new_alien)
 
     def run_game(self):
         """Start the main loop for the game."""
@@ -34,11 +39,11 @@ class SidewaysHero:
 
             # Update positions of any characters that might be moving.
             self.ship.update()
-            self.alien_ship.update()
+            self.aliens.update()
 
             self.screen.fill((255, 255, 255))
             self.ship.blitme()
-            self.alien_ship.blitme()
+            self.aliens.draw(self.screen)
 
             # Make the most recently drawn screen visible.
             pygame.display.flip()
