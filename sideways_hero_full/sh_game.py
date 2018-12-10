@@ -25,18 +25,22 @@ class SidewaysHero:
                     sys.exit()
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_UP:
-                        # Up key has been pressed!
-                        #  We want the ship to move up.
-                        self.ship.rect.y -= 10
+                        self.ship.moving_up = True
                     if event.key == pygame.K_DOWN:
-                        self.ship.rect.y += 10
+                        self.ship.moving_down = True
                     if event.key == pygame.K_RIGHT:
                         self.ship.moving_right = True
                     if event.key == pygame.K_LEFT:
-                        self.ship.rect.x -= 10
+                        self.ship.moving_left = True
                 elif event.type == pygame.KEYUP:
                     if event.key == pygame.K_RIGHT:
                         self.ship.moving_right = False
+                    if event.key == pygame.K_LEFT:
+                        self.ship.moving_left = False
+                    if event.key == pygame.K_UP:
+                        self.ship.moving_up = False
+                    if event.key == pygame.K_DOWN:
+                        self.ship.moving_down = False
 
             # Update positions of any characters that might be moving.
             self.ship.update()
