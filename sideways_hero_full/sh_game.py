@@ -1,9 +1,11 @@
 import sys
+from time import sleep
 
 import pygame
 
 from ship import Ship
 from alien_ship import AlienShip
+from explosion import Explosion
 
 class SidewaysHero:
     """Overall class to manage game assets and behavior."""
@@ -54,7 +56,13 @@ class SidewaysHero:
             self.aliens.update()
 
             if pygame.sprite.spritecollideany(self.ship, self.aliens):
-                self.ship.rect.x = 10000
+                # The player's ship has hit an alien ship.
+                #  Show an explosion, pause the game, and reset player's ship and alien ships.
+                explosion = Explosion(self, self.ship)
+                explosion.blitme()
+                pygame.display.flip()
+                sleep(2)
+                # sys.exit()
 
             self.screen.fill((255, 255, 255))
             self.ship.blitme()
