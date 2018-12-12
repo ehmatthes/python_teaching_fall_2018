@@ -19,7 +19,7 @@ class SidewaysHero:
 
         # Make a group of three aliens.
         self.aliens = pygame.sprite.Group()
-        for alien_num in range(3):
+        for alien_num in range(30):
             new_alien = AlienShip(self)
             self.aliens.add(new_alien)
 
@@ -40,6 +40,9 @@ class SidewaysHero:
             # Update positions of any characters that might be moving.
             self.ship.update()
             self.aliens.update()
+
+            if pygame.sprite.spritecollideany(self.ship, self.aliens):
+                self.ship.rect.x = 10000
 
             self.screen.fill((255, 255, 255))
             self.ship.blitme()

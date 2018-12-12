@@ -53,6 +53,9 @@ class SidewaysHero:
             self.ship.update()
             self.aliens.update()
 
+            if pygame.sprite.spritecollideany(self.ship, self.aliens):
+                self.ship.rect.x = 10000
+
             self.screen.fill((255, 255, 255))
             self.ship.blitme()
             self.aliens.draw(self.screen)
