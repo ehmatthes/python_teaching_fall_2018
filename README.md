@@ -4,6 +4,7 @@ Resources for Introduction to Programming, Fall 2018
 Short link to this repository: bit.ly/2zx5Hgx
 
 Here are the notebooks we're working through, in order. If GitHub is having issues and not displaying notebooks, you can also see them on the [nbviewer.jupyter.org](http://nbviewer.jupyter.org/github/ehmatthes/python_teaching_fall_2018/tree/master/) site.
+
 ---
 
 **Teaching and Assignment Notebooks**
