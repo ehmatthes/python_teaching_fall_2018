@@ -25,8 +25,13 @@ class SidewaysHero:
             new_alien = AlienShip(self)
             self.aliens.add(new_alien)
 
+        pygame.mixer.music.load('sounds/explosion.mp3')
+
+
     def run_game(self):
         """Start the main loop for the game."""
+
+
         while True:
             # Watch for keyboard and mouse events.
             for event in pygame.event.get():
@@ -61,6 +66,7 @@ class SidewaysHero:
                 explosion = Explosion(self, self.ship)
                 explosion.blitme()
                 pygame.display.flip()
+                pygame.mixer.music.play(0)
                 sleep(2)
                 # sys.exit()
 
